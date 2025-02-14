@@ -27,11 +27,11 @@ library(glue)
 
 ```
 
+
 ```{ojs}
 //| echo: false
 //| panel: sidebar
 
-import {FileAttachment} from "observablehq:stdlib";
 import {vl} from "@vega/vega-lite-api"
 import {aq, op} from "@uwdata/arquero"
 
@@ -41,6 +41,7 @@ imageURL_invert = FileAttachment("/data/invert 2.png").url()
 imageURL_peri = FileAttachment("/data/periphyton.png").url()
 imageURL_invert_div = FileAttachment("/data/invert_div.png").url()
 imageURL_par_len = FileAttachment("/data/par_len.png").url()
+
 
 viewof wetted = Inputs.range(
   [0, 10], 
@@ -67,9 +68,8 @@ function myFunction(wetted, substrate, percent) {
   'substrate': [substrate, substrate, substrate, substrate],
   'percent': [percent, percent, percent, percent],
   'response_type': ["Invertebrate biomass ()", "Periphyton biomass ()", "Invertebrate diversity", "Par length (cm)"],
-  'response_predict': [0.83-0.095*wetted+0.03*substrate, 0.44+0.026*wetted+0.32*percent, 0.7+0.0016*substrate, 0.1+0.06*wetted],
-  'image_path': [imageURL_invert, imageURL_peri, imageURL_invert_div, imageURL_par_len]
-})
+  'response_predict': [0.83-0.095*wetted+0.03*substrate, 0.44+0.026*wetted+0.32*percent, 0.7+0.0016*substrate, 0.1+0.06*wetted]
+  })
 }
 
 predictions_ps = myFunction(wetted, substrate, percent)
