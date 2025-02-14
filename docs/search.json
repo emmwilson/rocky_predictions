@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Exploits watershed predicitons",
+    "title": "Salmon resource predictions",
     "section": "",
-    "text": "About the webpage\nUse the top navigation bar to explore the following outputs:\nAbout slider predictions:\nAbout map predictions:\nAffiliated manuscript:\nAuthors:\nAffiliations:\nFunding:"
+    "text": "Use the top navigation bar to explore the following outputs:\nAbout slider predictions:\nAbout map predictions:\n\nAffiliated manuscript:\nAuthors:\nAffiliations:\nFunding:"
   },
   {
     "objectID": "about.html",
@@ -16,7 +16,7 @@
   {
     "objectID": "Exploits_map.html",
     "href": "Exploits_map.html",
-    "title": "Exploits predictions",
+    "title": "Exploits watershed predictions",
     "section": "",
     "text": "Predictions of invertebrate biomass and embededness for the sampled reaches of the Exploits watershed.\nClick on a reach that has been sampled (highlighted in orange-red or yellow-green) to see the predictions and underlying characteristics"
   },

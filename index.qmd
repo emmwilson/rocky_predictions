@@ -1,22 +1,23 @@
 ---
-title: "Exploits watershed predicitons"
+title: "Salmon resource predictions"
 theme: sandstone
 format:
   html:
     grid:
-      margin-width: 50px
-      body-width: 1000px
+      sidebar-width: 5px
+      margin-width: 5px
+      body-width: 2000px
 date: last-modified
 date-format: "DD/MM/YY"
 ---
-
-About the webpage
 
 Use the top navigation bar to explore the following outputs:
 
 About slider predictions:
 
 About map predictions:
+
+------------------------------------------------------------------------
 
 Affiliated manuscript:
 
