@@ -17,8 +17,7 @@ Contents:
 
  
 - Tutorial:
-  - tutorial.qmd: Quarto presentation that explains how the code works and how you can customize the code to make your own version of the website
-                  To view the presentation open in RStudio and click render
+  - tutorial.qmd: Quarto presentation that explains how the code works and how you can customize the code to make your own version of the website. To view the presentation open in RStudio and click render
 
   - Requirements:
     - quarto-drop
