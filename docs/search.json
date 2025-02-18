@@ -53,7 +53,7 @@
     "href": "tutorial.html#content",
     "title": "Tutorial",
     "section": "Content",
-    "text": "Content\nThis presentation will walk through using and customizing the “exploits_predictions” GitPage\n\nUsing Github\nParts of a Quorto Webpage\nThe website itself!\n\nHome tab\nSlider tab\nMap tab\n\nGetting it online"
+    "text": "Content\nThis presentation will walk through using and customizing the “exploits_predictions” GitPage\n\nUsing Github\nParts of a Quarto Webpage\nThe website itself!\n\nHome tab\nSlider tab\nMap tab\n\nGetting it online"
   },
   {
     "objectID": "tutorial.html#qmd-files",
@@ -74,7 +74,7 @@
     "href": "tutorial.html#others",
     "title": "Tutorial",
     "section": "others",
-    "text": "others\nThere are also other files that are important to building a quorto webpage:\n\nstyles.css\n_extensions folder\n_site folder\netc…\n\n\nBut we don’t need to alter any of them so we will skip over"
+    "text": "others\nThere are also other files that are important to building a quarto webpage:\n\nstyles.css\n_extensions folder\n_site folder\netc…\n\n\nBut we don’t need to alter any of them so we will skip over"
   },
   {
     "objectID": "tutorial.html#repositories",
@@ -179,7 +179,7 @@
     "href": "tutorial.html#create-table-with-predictions-1",
     "title": "Tutorial",
     "section": "create table with predictions",
-    "text": "create table with predictions\nUses the inputs from sliders to calculate the predicted response variables:\n\n\nGive response variables names (same as those for png files)\n\n\nfunction myFunction(wetted, substrate, percent) {\n  return aq.table({\n  'wetted': [wetted, wetted, wetted, wetted],\n  'substrate': [substrate, substrate, substrate, substrate],\n  'percent': [percent, percent, percent, percent],\n  'response_type': [\"Invertebrate biomass (units)\", \"Invertebrate diversity\", \"Par length (cm)\", \"Periphyton biomass (units)\"], // ordered alphabetically\n  'response_predict': [0.83-0.095*wetted+0.03*substrate, 0.44+0.026*wetted+0.32*percent, 0.7+0.0016*substrate, 0.1+0.06*wetted]\n  })\n}\n\npredictions_ps = myFunction(wetted, substrate, percent)"
+    "text": "create table with predictions\nUses the inputs from sliders to calculate the predicted response variables:\n\n\nGive response variables names (same as those for png files)\n\n\n// function that takes input from sliders and creates prediction of each response variable\n\nfunction myFunction(wetted, substrate, percent) {\n  return aq.table({\n  'wetted': [wetted, wetted, wetted, wetted],\n  'substrate': [substrate, substrate, substrate, substrate],\n  'percent': [percent, percent, percent, percent],\n  'response_type': [\"Invertebrate biomass (units)\", \"Invertebrate diversity\", \"Par length (cm)\", \"Periphyton biomass (units)\"], // ordered alphabetically\n  'response_predict': [0.83-0.095*wetted+0.03*substrate, 0.44+0.026*wetted+0.32*percent, 0.7+0.0016*substrate, 0.1+0.06*wetted]\n  })\n}"
   },
   {
     "objectID": "tutorial.html#create-table-with-predictions-2",
@@ -249,28 +249,28 @@
     "href": "tutorial.html#your-own-version",
     "title": "Tutorial",
     "section": "Your own version",
-    "text": "Your own version\nI don’t want you changing this version of the website\nSo let’s make you your own!\nTo do this we can :\n\nfork the repository to your Git account\nclone the forked repository to your computer"
+    "text": "Your own version\nI don’t want you changing this version of the website\nSo let’s make you your own!\nTo do this we:\n\nfork the repository to your Git account\nclone the forked repository to your computer"
   },
   {
     "objectID": "tutorial.html#fork",
     "href": "tutorial.html#fork",
     "title": "Tutorial",
     "section": "fork",
-    "text": "fork\n\n\nIn the top right corner click fork \n\nThen give your repository its own name and description"
+    "text": "fork\n\n\nIn the top right corner of emmwilson/exploits_predictions click fork \n\n\n\nThen give your repository its own name and description"
   },
   {
     "objectID": "tutorial.html#clone",
     "href": "tutorial.html#clone",
     "title": "Tutorial",
     "section": "Clone",
-    "text": "Clone\nNow to get the repository onto your computer to work on\nWe will do this using RStudio\n\n\nIn GitHub copy the url to the repository"
+    "text": "Clone\nNow to get the repository onto your computer to work on\nWe will do this using RStudio\n\n\nIn GitHub (in your own version of the repository) copy the url"
   },
   {
     "objectID": "tutorial.html#clone-1",
     "href": "tutorial.html#clone-1",
     "title": "Tutorial",
     "section": "Clone",
-    "text": "Clone\n\n\nCreate a new project\n\n\n\n\n\nSelect Version control, using GIT"
+    "text": "Clone\n\n\nCreate a new project\n\n\n\n\n\n\n\n\nSelect Version control, using GIT"
   },
   {
     "objectID": "tutorial.html#clone-2",
@@ -334,5 +334,12 @@
     "title": "Tutorial",
     "section": "pages build and deployment",
     "text": "pages build and deployment\nGitHub will now build and deploy your webpage!\n\nOnce it has finished you can go to:\nSettings -&gt; Pages\nand you should have the option to visit the site"
+  },
+  {
+    "objectID": "tutorial.html#congrats-youve-customized-the-webpage",
+    "href": "tutorial.html#congrats-youve-customized-the-webpage",
+    "title": "Tutorial",
+    "section": "Congrats! You’ve customized the webpage!",
+    "text": "Congrats! You’ve customized the webpage!"
   }
 ]

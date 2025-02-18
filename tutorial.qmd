@@ -19,7 +19,7 @@ engine: knitr
 This presentation will walk through using and customizing the "exploits_predictions" GitPage
 
 -   Using Github
--   Parts of a Quorto Webpage
+-   Parts of a Quarto Webpage
 -   The website itself!
     -   Home tab
     -   Slider tab
@@ -44,7 +44,7 @@ I don't want you changing this version of the website
 
 So let's make you your own!
 
-To do this we can :
+To do this we:
 
 1) fork the repository to your Git account
 
@@ -55,12 +55,15 @@ To do this we can :
 
 ::::: columns
 ::: {.column .fragment width="30%"}
-In the top right corner click fork
+In the top right corner of [emmwilson/exploits_predictions](<https://github.com/emmwilson/exploits_predictions>) click fork
 ![](data/for%20webpage/fork.png)
 
 :::
 
-::: {.column .fragment width="70%"}
+::: {.column width="10%"}
+:::
+
+::: {.column .fragment width="60%"}
 Then give your repository its own name and description
 ![](data/for%20webpage/name_fork.png)
 
@@ -75,7 +78,7 @@ Now to get the repository onto your computer to work on
 We will do this using RStudio
 
 :::{.nonincremental}
-1) In GitHub copy the url to the repository
+1) In GitHub (in your own version of the repository) copy the url
 :::
 
 ![](data/for%20webpage/git_url.png)
@@ -85,11 +88,14 @@ We will do this using RStudio
 ::: {.fragment .nostretch .nonincremental}
 2) Create a new project 
 
-![](data/for%20webpage/new_project.png){width="30%"}
+</br>
+
+i) 
+![](data/for%20webpage/new_project.png){width="50%"}
 :::
 
 ::: {.fragment .nostretch .nonincremental}
-i) Select Version control, using GIT 
+ii) Select Version control, using GIT 
 
 ![](data/for%20webpage/version_ctrl.png){width="40%"}
 ![](data/for%20webpage/version_git.png){width="40%"}
@@ -103,14 +109,14 @@ i) Select Version control, using GIT
 :::
 
 ::::: columns
-::: {.column .fragment .nonincremental width="50%"}
+::: {.column .nonincremental width="50%"}
 
-ii) Paste in the URL
+iii) Paste in the URL
 
-iii) Give the repository a folder name on your computer,</br> and choose where to store it
+iv) Give the repository a folder name on your computer,</br> and choose where to store it
 :::
 
-::: {.column .fragment .nonincremental width="50%"}
+::: {.column .nonincremental width="50%"}
 ![](data/for%20webpage/clone_repo.png)
 :::
 :::::
@@ -172,7 +178,7 @@ Can specify:
 
 ## others
 
-There are also other files that are important to building a quorto webpage:
+There are also other files that are important to building a quarto webpage:
 
 -   styles.css
 -   \_extensions folder
@@ -357,8 +363,6 @@ function myFunction(wetted, substrate, percent) {
   'response_predict': [0.83-0.095*wetted+0.03*substrate, 0.44+0.026*wetted+0.32*percent, 0.7+0.0016*substrate, 0.1+0.06*wetted]
   })
 }
-
-predictions_ps = myFunction(wetted, substrate, percent)
 ```
 
 :::
@@ -697,3 +701,6 @@ Settings -> Pages
 and you should have the option to visit the site
 ![](data/for%20webpage/live.png)
 :::
+
+
+## Congrats! You've customized the webpage!
