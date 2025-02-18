@@ -1,4 +1,5 @@
 Template code to create a GitPage for salmon resource predictions
+
 Author/developer: Emmerson Wilson
 
 Contents:
@@ -21,3 +22,23 @@ Contents:
 
   - Requirements:
     - quarto-drop
+    - data folder with 'for webpage' folder containing pngs for tutorial
+
+- data:
+  - pngs for Slide.qmd
+  - /spatial data: shapefiles for Exploits_map.qmd in 
+    - Exploits_lakes.shp: lakes in Exploits watershed
+    - OrderSlopeSegJan22.shp: waterways created using DEM by Kyleisha Foote
+    - exploits_reaches_with_sites.shp: reaches from OrderSlopeSegJan22.shp that had a sample site, and the corresponding field data collected at that site
+    - exploits_watershed.shp: area contained in the Exploits watershed
+  -/for webpage: pngs used in tutorial
+
+- docs: created and updated upon render
+
+- _site: created and updated upon render
+
+- _extensions: created and updated by quarto-live upon render
+
+- style.css: empty
+
+- about.qmd: empty
