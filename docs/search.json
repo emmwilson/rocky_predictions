@@ -348,5 +348,12 @@
     "title": "Tutorial",
     "section": "extra resources",
     "text": "extra resources\n\nQuarto:\nbasics of quarto pages: https://quarto.org/docs/websites/ info on using quarto and GitPages: https://quarto.org/docs/publishing/github-pages.html\n\n\nfor sliders\nusing observable js with quarto: https://quarto.org/docs/dashboards/interactivity/observable.html all the options available with Plot: https://observablehq.com/plot/what-is-plot going from ggplot to Plot: https://observablehq.com/@observablehq/plot-from-ggplot2\n\n\nusing leaflet\nhow to use leaflet to make maps in R: https://rstudio.github.io/leaflet/articles/leaflet.html"
+  },
+  {
+    "objectID": "Rocky_map.html",
+    "href": "Rocky_map.html",
+    "title": "Rocky River watershed hydrological data",
+    "section": "",
+    "text": "HydroShed data that can be used in gravel models to estimate gravel with the proper size for salmon spawning.\nClick on a reach to see the data for each segment."
   }
 ]

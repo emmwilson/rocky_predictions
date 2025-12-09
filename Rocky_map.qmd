@@ -74,7 +74,7 @@ arrow <- "https://cdn.pixabay.com/photo/2013/07/12/17/54/arrow-152596_960_720.pn
   # colour palette for watershed
   discharge.pal <- colorNumeric(c("#dfdce3", "#8900a8"), domain = rocky_river$DIS_AV_CMS, na.color = "transparent")
   
-  order.pal <- colorFactor(c("#f2ca96", "#d4021d"), domain = rocky_river$ORD_CLAS, na.color = "transparent") # use this function for any categorical data you want to include in the map
+  order.pal <- colorFactor(c("#f2ca97", "#d4021d"), domain = rocky_river$ORD_CLAS, na.color = "transparent") # use this function for any categorical data you want to include in the map
 
   catchment.pal <- colorNumeric(c("#e9c602", "#00b80c"), domain = rocky_river$UPLAND_SKM, na.color = "transparent")
 ```

@@ -11,7 +11,7 @@ website:
       - text: "Sliders"
         href: Sliders.qmd
       - text: "Map"
-        href: Exploits_map.qmd 
+        href: Rocky_map.qmd 
 
 format:
   html:
