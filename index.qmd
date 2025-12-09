@@ -1,5 +1,5 @@
 ---
-title: "Salmon resource predictions"
+title: "Rockey River salmon resource predictions"
 theme: sandstone
 format:
   html:
