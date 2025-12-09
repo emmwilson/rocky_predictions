@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Salmon resource predictions",
     "section": "",
-    "text": "Use the top navigation bar to explore the following outputs:\nSlider predictions: about…\nMap predictions: Example of a map containing data required to create gravel predictions (Rocky River, NL).\n\nAffiliated manuscript:\nAuthors:\nAffiliations:\nFunding:\nApp development: Emmerson Wilson"
+    "text": "Use the top navigation bar to explore the following outputs:\nSlider predictions: about…\nMap predictions: Example of a map containing data required to create gravel predictions (Rocky River, NL). Resulting map of predictions can be added.\n\nAffiliated manuscript:\nAuthors:\nAffiliations:\nFunding:\nApp development: Emmerson Wilson"
   },
   {
     "objectID": "about.html",
@@ -354,6 +354,6 @@
     "href": "Rocky_map.html",
     "title": "Rocky River watershed hydrological data",
     "section": "",
-    "text": "HydroShed data that can be used in gravel models to estimate gravel with the proper size for salmon spawning.\nClick on a reach to see the data for each segment."
+    "text": "HydroATLAS data that can be used in gravel models to estimate gravel with the proper size for salmon spawning.\nClick on a reach to see the data for each segment.\n\n\n\n\n\n\nHydroATLAS data:\nLinke, S., Lehner, B., Ouellet Dallaire, C., Ariwi, J., Grill, G., Anand, M., Beames, P., Burchard-Levine, V., Maxwell, S., Moidu, H., Tan, F., Thieme, M. (2019). Global hydro-environmental sub-basin and river reach characteristics at high spatial resolution. Scientific Data 6: 283. doi: https://doi.org/10.1038/s41597-019-0300-6\nLehner, B., Messager, M.L., Korver, M.C., Linke, S. (2022). Global hydro-environmental lake characteristics at high spatial resolution. Scientific Data 9: 351. doi: https://doi.org/10.1038/s41597-022-01425-z"
   }
 ]
