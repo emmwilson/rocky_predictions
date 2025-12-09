@@ -15,7 +15,7 @@ Use the top navigation bar to explore the following outputs:
 
 Slider predictions: about...
 
-Map predictions: about...
+Map predictions: Example of a map containing data required to create gravel predictions (Rocky River, NL). 
 
 ------------------------------------------------------------------------
 
