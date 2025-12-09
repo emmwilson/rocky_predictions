@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Salmon resource predictions",
     "section": "",
-    "text": "Use the top navigation bar to explore the following outputs:\nSlider predictions: about…\nMap predictions: about…\n\nAffiliated manuscript:\nAuthors:\nAffiliations:\nFunding:\nApp developement: Emmerson Wilson"
+    "text": "Use the top navigation bar to explore the following outputs:\nSlider predictions: about…\nMap predictions: Example of a map containing data required to create gravel predictions (Rocky River, NL).\n\nAffiliated manuscript:\nAuthors:\nAffiliations:\nFunding:\nApp developement: Emmerson Wilson"
   },
   {
     "objectID": "about.html",
@@ -16,9 +16,9 @@
   {
     "objectID": "Exploits_map.html",
     "href": "Exploits_map.html",
-    "title": "Exploits watershed predictions",
+    "title": "Rocky River watershed hydrological data",
     "section": "",
-    "text": "Predictions of invertebrate biomass and embededness for the sampled reaches of the Exploits watershed.\nClick on a reach that has been sampled (highlighted in orange-red or yellow-green) to see the predictions and underlying characteristics"
+    "text": "HydroShed data that can be used in gravel models to estimate gravel with the proper size for salmon spawning.\nClick on a reach to see the data for each segment."
   },
   {
     "objectID": "data/spatial data/exploits_watershed.html",
@@ -52,8 +52,8 @@
     "objectID": "tutorial.html#content",
     "href": "tutorial.html#content",
     "title": "Tutorial",
-    "section": "Content",
-    "text": "Content\nThis presentation will walk through using and customizing the “exploits_predictions” GitPage\n\nUsing Github\nParts of a Quarto Webpage\nThe website itself!\n\nHome tab\nSlider tab\nMap tab\n\nGetting it online"
+    "section": "",
+    "text": "This presentation will walk through using and customizing the “exploits_predictions” GitPage\n\nUsing Github\nParts of a Quarto Webpage\nThe website itself!\n\nHome tab\nSlider tab\nMap tab\n\nGetting it online"
   },
   {
     "objectID": "tutorial.html#qmd-files",
@@ -74,7 +74,7 @@
     "href": "tutorial.html#others",
     "title": "Tutorial",
     "section": "others",
-    "text": "others\nThere are also other files that are important to building a quarto webpage:\n\nstyles.css\n_extensions folder\n_site folder\netc…\n\n\nBut we don’t need to alter any of them so we will skip over"
+    "text": "others\nThere are also other files that are important to building a quarto webpage:\n\nstyles.css\n_extensions folder\n_site folder\netc…\n\n. . .\nBut we don’t need to alter any of them so we will skip over"
   },
   {
     "objectID": "tutorial.html#repositories",
@@ -284,7 +284,7 @@
     "href": "tutorial.html",
     "title": "Tutorial",
     "section": "",
-    "text": "This presentation will walk through using and customizing the “exploits_predictions” GitPage\n\nUsing Github\nParts of a Quorto Webpage\nThe website itself!\n\nHome tab\nSlider tab\nMap tab\n\nGetting it online"
+    "text": "This presentation will walk through using and customizing the “exploits_predictions” GitPage\n\nUsing Github\nParts of a Quarto Webpage\nThe website itself!\n\nHome tab\nSlider tab\nMap tab\n\nGetting it online"
   },
   {
     "objectID": "tutorial.html#a-few-things-you-need-first",
@@ -319,7 +319,7 @@
     "href": "tutorial.html#commit-and-push-1",
     "title": "Tutorial",
     "section": "Commit and Push",
-    "text": "Commit and Push\n\n\nCommit:\n\n\n\n\n\n\n\n\n\n\n\nSelect the files and folders that show up in the top left console\n\n\n\n\n\n\n\n\n\nAdd a commit message and select “Commit”\n\n\n\n\n\n** Important ** There is a limit to how much you can commit and push at one time!\nIf you are adding any spatial data, do a seperate commit and push for that file\nAnd be conservative about how much you commit at one time\n\n\nAfter it has finished with the commit click Push"
+    "text": "Commit and Push\n\n\nCommit:\n\n\n\n\n\n\n\n\nSelect the files and folders that show up in the top left console\n\n\n\n\n\n\n\n\n\nAdd a commit message and select “Commit”\n\n\n\n\n\n** Important ** There is a limit to how much you can commit and push at one time!\nIf you are adding any spatial data, do a seperate commit and push for that file\nAnd be conservative about how much you commit at one time\n\n\n\nAfter it has finished with the commit click Push"
   },
   {
     "objectID": "tutorial.html#commit-and-push-2",
@@ -347,6 +347,6 @@
     "href": "tutorial.html#extra-resources",
     "title": "Tutorial",
     "section": "extra resources",
-    "text": "extra resources\nQuarto:\nbasics of quarto pages: https://quarto.org/docs/websites/ info on using quarto and GitPages: https://quarto.org/docs/publishing/github-pages.html\nfor sliders\nusing observable js with quarto: https://quarto.org/docs/dashboards/interactivity/observable.html all the options available with Plot: https://observablehq.com/plot/what-is-plot going from ggplot to Plot: https://observablehq.com/@observablehq/plot-from-ggplot2\nusing leaflet\nhow to use leaflet to make maps in R: https://rstudio.github.io/leaflet/articles/leaflet.html"
+    "text": "extra resources\n\nQuarto:\nbasics of quarto pages: https://quarto.org/docs/websites/ info on using quarto and GitPages: https://quarto.org/docs/publishing/github-pages.html\n\n\nfor sliders\nusing observable js with quarto: https://quarto.org/docs/dashboards/interactivity/observable.html all the options available with Plot: https://observablehq.com/plot/what-is-plot going from ggplot to Plot: https://observablehq.com/@observablehq/plot-from-ggplot2\n\n\nusing leaflet\nhow to use leaflet to make maps in R: https://rstudio.github.io/leaflet/articles/leaflet.html"
   }
 ]
