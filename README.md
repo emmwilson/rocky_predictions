@@ -7,7 +7,7 @@ Contents:
 - Control Website:
   - index.qmd: Home page with project information
   - Sliders.qmd: Input variables controlled by sliders to create predictions of response variables
-  - Exploits_map.qmd: Map with predictions of response variables for reaches sampled for Exploits watershed, NL
+  - Rocky_map.qmd: Map with predictions of response variables for reaches sampled for Rocky River watershed, NL
   - _quarto.yml: Rendering source, which pages included in site, universal themes
 
   - Requirements:
@@ -26,11 +26,10 @@ Contents:
 
 - data:
   - pngs for Slide.qmd
-  - /spatial data: shapefiles for Exploits_map.qmd in 
-    - Exploits_lakes.shp: lakes in Exploits watershed
-    - OrderSlopeSegJan22.shp: waterways created using DEM by Kyleisha Foote
-    - exploits_reaches_with_sites.shp: reaches from OrderSlopeSegJan22.shp that had a sample site, and the corresponding field data collected at that site
-    - exploits_watershed.shp: area contained in the Exploits watershed
+  - /spatial data: shapefiles for Rocky_map.qmd in 
+    - Rocky_lakes.shp: lakes in Exploits watershed
+    - Rocky_watershed.shp: watershed created GRASS watershed workflow 
+    - Rocky _hydrorivers.shp: river vectors from HydroSHEDS clipped to watershed
   -/for webpage: pngs used in tutorial
 
 - docs: created and updated upon render
