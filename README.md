@@ -28,7 +28,7 @@ Contents:
   - pngs for Slide.qmd
   - /spatial data: shapefiles for Rocky_map.qmd in 
     - Rocky_lakes.shp: lakes in Exploits watershed
-    - Rocky_watershed.shp: watershed created GRASS watershed workflow 
+    - Rocky_watershed.shp: watershed from Hydrobasin
     - Rocky _hydrorivers.shp: river vectors from HydroSHEDS clipped to watershed
   -/for webpage: pngs used in tutorial
 
