@@ -88,17 +88,9 @@ rocky_river$D50 <- (rocky_river$tb/((ps-p)*g*t))*1000
   #width.pal <- colorFactor(c("#f2ca97", "#d4021d"), domain = TN_river$width*1000, na.color = "transparent") use this function for any categorical data you want to include in the map
   
   # colour palette for stream gradient
-  gradient.pal <- colorNumeric(c("#00D4FF", "#020024"), domain = rocky_river$sgr_dk_rav/10000, na.color = "transparent")  
-  
-  
+  gradient.pal <- colorNumeric(c("#00D4FF", "#020024"), domain = rocky_river$sgr_dk_rav/10000, na.color = "transparent")
   
   # colour palette for D50, with 16-64 green
-  
-  # rocky_river$D50f <- factor(sort(rocky_river$D50))
-  # 
-  # D50_colors <- function(x) {ifelse(64 <= x, colorNumeric(c("#e9c602", "white"), domain = c(64, max(rocky_river$D50)), na.color = "transparent")(x), ifelse(x <= 16, colorNumeric(c("white", "#e9c602"), domain = c(0, 16), na.color = "transparent")(x), "#0E7329"))}
-  # 
-  # D50.pal <- colorFactor(D50_colors(sort(rocky_river$D50)), domain = rocky_river$D50, na.color = "transparent")  
   
  D50.pal <- colorNumeric(c("#e9c602","#e9c602", "#e9c602","#FD602F"), domain = c(0,16,64,176), na.color = "transparent")
  
